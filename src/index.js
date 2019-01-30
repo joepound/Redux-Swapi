@@ -18,8 +18,8 @@ import rootReducer from "./reducers";
 
 const store = createStore(
   rootReducer,
-  applyMiddleware(thunk, logger)
   /* applyMiddleware goes here */
+  applyMiddleware(thunk, logger)
 );
 
 ReactDOM.render(
